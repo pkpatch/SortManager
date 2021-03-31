@@ -4,7 +4,11 @@ public class Printer {
 
     public static void printArray(int[] numbers) {
         for (int number : numbers) {
-            System.out.println(number);
+            System.out.print(number + ", " );
         }
+    }
+
+    public static void printMessage(String string) {
+        System.out.println(string);
     }
 }
